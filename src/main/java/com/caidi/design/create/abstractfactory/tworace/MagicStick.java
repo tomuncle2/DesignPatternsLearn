@@ -1,4 +1,4 @@
-package main.java.abstractfactory.tworace;
+package com.caidi.design.create.abstractfactory.tworace;
 
 import main.java.abstractfactory.Weapon;
 

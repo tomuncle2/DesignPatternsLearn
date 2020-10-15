@@ -1,4 +1,4 @@
-package main.java.abstractfactory;
+package com.caidi.design.create.abstractfactory;
 
 /**
  * @author: 蔡迪

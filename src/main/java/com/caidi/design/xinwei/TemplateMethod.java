@@ -1,4 +1,4 @@
-package main.java.com.caidi.design.xinwei;
+package com.caidi.design.xinwei;
 
 /**
  * @author: 蔡迪

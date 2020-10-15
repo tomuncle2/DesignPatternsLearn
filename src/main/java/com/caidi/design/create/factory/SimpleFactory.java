@@ -1,4 +1,4 @@
-package main.java.factory;
+package com.caidi.design.create.factory;
 
 /**
  * @author: 蔡迪

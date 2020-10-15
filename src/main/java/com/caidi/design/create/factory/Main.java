@@ -1,4 +1,4 @@
-package main.java.factory;
+package com.caidi.design.create.factory;
 
 
 /**
@@ -35,7 +35,7 @@ public class Main {
       carFactory.create().go();
 
       //
-      PlaneFactory planeFactory = new PlaneFactory();
+     PlaneFactory planeFactory = new PlaneFactory();
       planeFactory.create().go();
   }
 }
