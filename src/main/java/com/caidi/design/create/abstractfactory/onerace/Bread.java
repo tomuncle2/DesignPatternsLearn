@@ -1,6 +1,7 @@
 package com.caidi.design.create.abstractfactory.onerace;
 
-import main.java.abstractfactory.Food;
+
+import com.caidi.design.create.abstractfactory.Food;
 
 /**
  * @author: 蔡迪

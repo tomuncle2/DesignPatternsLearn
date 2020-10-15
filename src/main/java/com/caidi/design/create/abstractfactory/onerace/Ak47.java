@@ -1,6 +1,7 @@
 package com.caidi.design.create.abstractfactory.onerace;
 
-import main.java.abstractfactory.Weapon;
+
+import com.caidi.design.create.abstractfactory.Weapon;
 
 /**
  * @author: 蔡迪

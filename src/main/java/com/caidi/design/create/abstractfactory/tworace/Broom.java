@@ -1,6 +1,7 @@
 package com.caidi.design.create.abstractfactory.tworace;
 
-import main.java.abstractfactory.Vehicle;
+
+import com.caidi.design.create.abstractfactory.Vehicle;
 
 /**
  * @author: 蔡迪
