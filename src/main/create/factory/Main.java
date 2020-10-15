@@ -1,4 +1,4 @@
-package com.caidi.design.create.factory;
+package main.create.factory;
 
 /**
  * @author: 蔡迪
@@ -7,4 +7,7 @@ package com.caidi.design.create.factory;
  */
 public class Main {
   //
+  public static void main(String[] args) {
+      // 
+  }
 }

@@ -1,4 +1,4 @@
-package com.caidi.design.xinwei;
+package main.xinwei;
 
 /**
  * @author: 蔡迪
@@ -6,5 +6,7 @@ package com.caidi.design.xinwei;
  * @description: 模板方法
  */
 public class TemplateMethod {
-
+    public static void main(String[] args) {
+        System.out.println("sout");
+    }
 }
