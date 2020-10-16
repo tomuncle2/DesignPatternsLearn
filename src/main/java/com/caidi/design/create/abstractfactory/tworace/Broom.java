@@ -11,6 +11,6 @@ import com.caidi.design.create.abstractfactory.Vehicle;
 public class Broom extends Vehicle {
     @Override
     public void go() {
-
+        System.out.println(this.getClass().getName() + " fly....");
     }
 }

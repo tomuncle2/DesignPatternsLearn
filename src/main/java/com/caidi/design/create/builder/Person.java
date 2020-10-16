@@ -49,7 +49,7 @@ public class Person {
             return this;
         }
 
-        Person buildPerson() {
+        Person build() {
             return person;
         }
     }

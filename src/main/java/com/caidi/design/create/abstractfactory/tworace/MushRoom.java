@@ -11,6 +11,6 @@ import com.caidi.design.create.abstractfactory.Food;
 public class MushRoom extends Food {
     @Override
     public void eat() {
-
+        System.out.println(this.getClass().getName() + " 味多美 wdm....");
     }
 }

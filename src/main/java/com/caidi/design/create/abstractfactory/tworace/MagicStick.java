@@ -11,6 +11,6 @@ import com.caidi.design.create.abstractfactory.Weapon;
 public class MagicStick extends Weapon {
     @Override
     public void shot() {
-
+        System.out.println(this.getClass().getName() + " dian dian dian....");
     }
 }
