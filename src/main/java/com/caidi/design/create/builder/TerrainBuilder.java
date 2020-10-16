@@ -12,5 +12,6 @@ public interface TerrainBuilder {
     TerrainBuilder buildFort();
     // 构建矿井
     TerrainBuilder buildMine();
-
+    // 构建Terrain对象
+    Terrain build();
 }

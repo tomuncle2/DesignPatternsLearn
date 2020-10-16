@@ -5,34 +5,47 @@ package com.caidi.design.create.builder;
  * @date: 23:34 2020/10/15
  * @description: 地形 地势
  */
+
 public class Terrain {
-    private Wall wall;
-    private Fort fort;
-    private Mine mine;
+     Wall wall;
+     Fort fort;
+     Mine mine;
 
-    // sout
-    static class ComplexTerrainBuilder implements TerrainBuilder{
-        private Wall wall;
-        private Fort fort;
-        private Mine mine;
-        @Override
-        public TerrainBuilder buildWall() {
-            wall = new Wall(1,1,1,1);
-            return new ComplexTerrainBuilder();
-        }
-
-        @Override
-        public TerrainBuilder buildFort() {
-            fort = new Fort(1,1,1,1);
-            return new ComplexTerrainBuilder();
-        }
-
-        @Override
-        public TerrainBuilder buildMine() {
-            mine = new Mine(1,1,1,1);
-            return new ComplexTerrainBuilder();
-        }
+    public Terrain(){
     }
+
+    @Override
+    public String toString() {
+        return "Terrain{" +
+                "wall=" + wall +
+                ", fort=" + fort +
+                ", mine=" + mine +
+                '}';
+    }
+//    // sout
+//    class ComplexTerrainBuilder implements TerrainBuilder{
+//        Terrain terrain = new Terrain();
+//
+//        public TerrainBuilder buildWall() {
+//            terrain.wall = new Wall(1,1,1,1);
+//            return new ComplexTerrainBuilder();
+//        }
+//
+//        public TerrainBuilder buildFort() {
+//            terrain.fort = new Fort(1,1,1,1);
+//            return new ComplexTerrainBuilder();
+//        }
+//
+//
+//        public TerrainBuilder buildMine() {
+//            terrain.mine = new Mine(1,1,1,1);
+//            return new ComplexTerrainBuilder();
+//        }
+//
+//        public Terrain build() {
+//            return null;
+//        }
+//    }
 
     // sout
 }
@@ -47,6 +60,16 @@ class Wall{
         this.w = w;
         this.h = h;
     }
+
+    @Override
+    public String toString() {
+        return "Wall{" +
+                "x=" + x +
+                ", y=" + y +
+                ", w=" + w +
+                ", h=" + h +
+                '}';
+    }
 }
 
 // 构建堡垒
@@ -59,6 +82,16 @@ class Fort{
         this.w = w;
         this.h = h;
     }
+
+    @Override
+    public String toString() {
+        return "Fort{" +
+                "x=" + x +
+                ", y=" + y +
+                ", w=" + w +
+                ", h=" + h +
+                '}';
+    }
 }
 
 // 构建矿井
@@ -70,5 +103,16 @@ class Mine{
         this.y = y;
         this.w = w;
         this.h = h;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Mine{" +
+                "x=" + x +
+                ", y=" + y +
+                ", w=" + w +
+                ", h=" + h +
+                '}';
     }
 }
