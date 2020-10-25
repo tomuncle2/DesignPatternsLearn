@@ -35,7 +35,6 @@ public class TicketSeller3 {
 				while(true) {
 					synchronized(tickets) {
 						if(tickets.size() <= 0) break;
-
 						try {
 							TimeUnit.MILLISECONDS.sleep(10);
 						} catch (InterruptedException e) {

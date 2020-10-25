@@ -1,7 +1,6 @@
 package com.caidi.collection.c_023_02_FromHashtableToCHM;
 
-import java.util.Collections;
-import java.util.HashMap;
+
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
